@@ -19,9 +19,9 @@ Copy the output into another file, or fork and clone this repository to save you
 - [jump to calculator on Binder](https://mybinder.org/v2/gh/procf/colloid-morse-calc/HEAD?urlpath=%2Fdoc%2Ftree%2Fcalculator.ipynb)<br>
 - *What if I don't know $c^*$ for this experimental system?*<br>
 - *Extensions*<br>
-- *More about the Morse Potential*<br>
-- *Mathematical Form*<br>
-- *More about simulations*<br>
+- [more about the Morse Potential](about-morse.md#more-about-the-morse-potential)<br>
+- [mathematical form](about-morse.md#mathematical-form-morse-vs-depletion)<br>
+- [more about simulations](about-morse.md#simulating-morse)<br>
 
 ### What you need
 You need to provide the following information and **experiment** and **simulation**:
