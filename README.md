@@ -1,5 +1,5 @@
 # colloid-morse-calc
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/procf/colloid-morse-calc/HEAD)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/procf/colloid-morse-calc/HEAD?urlpath=%2Fdoc%2Ftree%2Fcalculator.ipynb)
 
 ## What is it?
 **colloid-morse-calc** is a Python script for calculating the Morse Potential from experimental values. <br>
@@ -11,12 +11,12 @@ This code uses experimental details about a depletion-based spherical-colloid sy
 
 **A standard simulation with Morse Potential assumes that your particles are stabilized to behave like hard spheres.** They are not sticky or patchy, they do not interact with each other outside of depletion, their surface charge (including charge from any surface coating or polymer brush) is balanced by added salt, etc.
 
-You can run the code in a Jupyter Notebook on Binder, but no data is saved between Binder sessions. <br>
+You can run the code in a [Jupyter Notebook on Binder](https://mybinder.org/v2/gh/procf/colloid-morse-calc/HEAD?urlpath=%2Fdoc%2Ftree%2Fcalculator.ipynb), but no data is saved between Binder sessions. <br>
 Copy the output into another file, or fork and clone this repository to save your parameters and make changes to the code.
 
 - [what you need](/README.md#what-you-need) (inputs)<br>
 - [what you get](/README.md#what-you-get) (outputs)<br>
-- *Jump to Morse Calculator*<br>
+- [jump to calculator](https://mybinder.org/v2/gh/procf/colloid-morse-calc/HEAD?urlpath=%2Fdoc%2Ftree%2Fcalculator.ipynb)<br>
 - *What if I don't know $c^*$ for this experimental system?*<br>
 - *Extensions*<br>
 - *More about the Morse Potential*<br>
@@ -42,7 +42,6 @@ You need to provide the following information and **experiment** and **simulatio
 | :-------- | :------- |
 | simulation timestep   | $dt$ |
 | simulation recording interval | $trigger$ = $period$ |
-| average colloid radii in simulation units | $R_{C,sim}$ |
 | simulation solvent viscosity parameter | $eta_{0,sim}$ |
 | simulation solvent number density | $\rho_{S,sim}$ |
 | simulation temperature | $kT$ |
@@ -70,10 +69,12 @@ The calculator ouputs two sets of information: **real values** and **simulation 
 | real-time per simulation timestep | $dt$ [s] |
 | real-time per recorded simulation frame | $t_{frame}$ [s] |
 | number of frames needed to match experiment time | $nframes$ |
+| average colloid radii in simulation units | $R_{C,sim}$ |
+| standard gravitational acceleration in simulation units | $g_{sim}$ |
+| Gravitational Peclet number in simulation units | $Pe_{G,sim}$ |
+| force of gravity per unit length, in sim units | $F_{G,sim}$ |
 | simulation unit length | $[length]$ [m] |
 | simulation unit mass | $[mass]$ [g] |
 | simulation unit energy | $[energy]$ [J] |
 | simulation unit time | $[time]$ [s] |
-| standard gravitational acceleration in simulation units | $g_{sim}$ |
-| Gravitational Peclet number in simulation units | $Pe_{G,sim}$ |
-| force of gravity per unit length, in sim units | $F_{G,sim}$ |
+
