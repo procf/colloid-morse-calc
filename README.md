@@ -2,12 +2,12 @@
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/procf/colloid-morse-calc/HEAD)
 
 ## What is it?
-**colloid-morse-calc** is an interactive Python script for calculating the Morse Potential from experimental values. <br>
+**colloid-morse-calc** is a Python script for calculating the Morse Potential from experimental values. <br>
 Have you ever wanted to replicate a specific colloidal depletion gel in simulation? This can help! <br>
 See more info about assumptions and limitations below.
 
 ## Documentation
-This code uses experimental details about a depletion-based spherical-colloid system to calculate parameters for the Morse Potential and related MD simulation values.
+This code uses experimental details about a depletion-based spherical-colloid system to calculate the effective Morse Potential and related MD simulation parameters.
 
 **A standard simulation with Morse Potential assumes that your particles are stabilized to behave like hard spheres.** They are not sticky or patchy, they do not interact with each other outside of depletion, their surface charge (including charge from any surface coating or polymer brush) is balanced by added salt, etc.
 
@@ -24,9 +24,9 @@ Copy the output into another file, or fork and clone this repository to save you
 - *More about simulations*<br>
 
 ### What you need
-You need to provide the following information:
+You need to provide the following information and **experiment** and **simulation**:
 
-| value    | units   |
+| Experimental value    | units   |
 | :-------- | :------- |
 | depletant molar mass   | $M_d$ *[g/Mol]* |
 | depletant concentration | $c_d$ *[mg/mL = g/L]* |
@@ -38,8 +38,18 @@ You need to provide the following information:
 | colloid particle density | $\rho_c$ *[g/mL = kg/L]* |
 | time (between sample mixing and data capture)  | $t$ *[sec]* |
 
+| Simulation value    | units   |
+| :-------- | :------- |
+| simulation timestep   | $dt$ |
+| simulation recording interval | $trigger$ = $period$ |
+| average colloid radii in simulation units | $R_{C,sim}$ |
+| simulation solvent viscosity parameter | $eta_{0,sim}$ |
+| simulation solvent number density | $\rho_{S,sim}$ |
+| simulation temperature | $kT$ |
+
+
 ## What you get 
-The calculator ouputs two sets of information: real values, and simulation Values
+The calculator ouputs two sets of information: **real values** and **simulation values**
 
 | Real value    | units   |
 | :-------- | :------- |
