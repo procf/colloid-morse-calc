@@ -17,7 +17,7 @@ Copy the output into another file, or fork and clone this repository to save you
 - [what you need](/README.md#what-you-need) (inputs)<br>
 - [what you get](/README.md#what-you-get) (outputs)<br>
 - [jump to calculator on Binder](https://mybinder.org/v2/gh/procf/colloid-morse-calc/HEAD?urlpath=%2Fdoc%2Ftree%2Fcalculator.ipynb)<br>
-- *What if I don't know $c^*$ for this experimental system?*<br>
+- *What if I don't know $c^\*$ for this experimental system?*<br>
 - *Extensions*<br>
 - [more about the Morse Potential](about-morse.md#more-about-the-morse-potential)<br>
 - [mathematical form](about-morse.md#mathematical-form-morse-vs-depletion)<br>
@@ -37,6 +37,7 @@ You need to provide the following information and **experiment** and **simulatio
 | average colloid particle diameter(s)  | $d_c$ *[meter]* |
 | colloid particle density | $\rho_c$ *[g/mL = kg/L]* |
 | time (between sample mixing and data capture)  | $t$ *[sec]* |
+*What if I don't know $c\*$ for this experimental system?*
 
 | Simulation value    | units   |
 | :-------- | :------- |
@@ -45,7 +46,7 @@ You need to provide the following information and **experiment** and **simulatio
 | simulation solvent viscosity parameter | $eta_{0,sim}$ |
 | simulation solvent number density | $\rho_{S,sim}$ |
 | simulation temperature | $kT$ |
-
+*NOTE: Default simulation parameters are provided*
 
 ## What you get 
 The calculator ouputs two sets of information: **real values** and **simulation values**
