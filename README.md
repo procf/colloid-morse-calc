@@ -23,6 +23,8 @@ Copy the output into another file, or fork and clone this repository to save you
 - [mathematical form](about-morse.md#mathematical-form-morse-vs-depletion)<br>
 - [more about simulations](about-morse.md#simulating-morse)<br>
 
+<br>
+
 ### What you need
 You need to provide the following information and **experiment** and **simulation**:
 
@@ -37,16 +39,18 @@ You need to provide the following information and **experiment** and **simulatio
 | average colloid particle diameter(s)  | $d_c$ *[meter]* |
 | colloid particle density | $\rho_c$ *[g/mL = kg/L]* |
 | time (between sample mixing and data capture)  | $t$ *[sec]* |
-*What if I don't know $c\*$ for this experimental system?*
 
 | Simulation value    | units   |
 | :-------- | :------- |
 | simulation timestep   | $dt$ |
 | simulation recording interval | $trigger$ = $period$ |
-| simulation solvent viscosity parameter | $eta_{0,sim}$ |
+| simulation solvent viscosity parameter | $\eta_{0,sim}$ |
 | simulation solvent number density | $\rho_{S,sim}$ |
 | simulation temperature | $kT$ |
+
 *NOTE: Default simulation parameters are provided*
+
+<br>
 
 ## What you get 
 The calculator ouputs two sets of information: **real values** and **simulation values**
