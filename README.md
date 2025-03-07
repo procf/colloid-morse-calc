@@ -16,7 +16,7 @@ Copy the output into another file, or fork and clone this repository to save you
 
 - [what you need](/README.md#what-you-need) (inputs)<br>
 - [what you get](/README.md#what-you-get) (outputs)<br>
-- [jump to calculator](https://mybinder.org/v2/gh/procf/colloid-morse-calc/HEAD?urlpath=%2Fdoc%2Ftree%2Fcalculator.ipynb)<br>
+- [jump to calculator on Binder](https://mybinder.org/v2/gh/procf/colloid-morse-calc/HEAD?urlpath=%2Fdoc%2Ftree%2Fcalculator.ipynb)<br>
 - *What if I don't know $c^*$ for this experimental system?*<br>
 - *Extensions*<br>
 - *More about the Morse Potential*<br>
