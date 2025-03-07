@@ -14,17 +14,17 @@ This code uses experimental details about a depletion-based spherical-colloid sy
 You can run the code in a Jupyter Notebook on Binder, but no data is saved between Binder sessions. <br>
 Copy the output into another file, or fork and clone this repository to save your parameters and make changes to the code.
 
-[*What you need*](/README.md#what-you-need)<br>
-*What you get*<br>
-*Jump to Morse Calculator*<br>
-*What if I don't know $c^*$ for this experimental system?*<br>
-*Other Extensions*<br>
-*More about the Morse Potential*<br>
-*Mathematical Form*<br>
-*More about simulations*<br>
+- [what you need](/README.md#what-you-need) (inputs)<br>
+- [what you get](/README.md#what-you-get) (outputs)<br>
+- *Jump to Morse Calculator*<br>
+- *What if I don't know $c^*$ for this experimental system?*<br>
+- *Extensions*<br>
+- *More about the Morse Potential*<br>
+- *Mathematical Form*<br>
+- *More about simulations*<br>
 
-#### What you need
-**You need to provide the following information:**
+### What you need
+You need to provide the following information:
 
 | value    | units   |
 | :-------- | :------- |
@@ -38,7 +38,8 @@ Copy the output into another file, or fork and clone this repository to save you
 | colloid particle density | $\rho_c$ *[g/mL = kg/L]* |
 | time (between sample mixing and data capture)  | $t$ *[sec]* |
 
-#### What you get: Real values, and Simulation Values
+## What you get 
+The calculator ouputs two sets of information: real values, and simulation Values
 
 | Real value    | units   |
 | :-------- | :------- |
